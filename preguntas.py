@@ -124,7 +124,7 @@ def pregunta_03():
     # Importe Pipeline
     from sklearn.linear_model import LogisticRegressionCV
     from sklearn.preprocessing import OneHotEncoder
-    from ____ import Pipeline
+    from sklearn.pipeline import Pipeline
 
     # Cargue las variables.
     X_train, _, y_train, _ = pregunta_02()
@@ -151,7 +151,7 @@ def pregunta_04():
     """
 
     # Importe confusion_matrix
-    from ____ import ____
+    from sklearn.metrics import confusion_matrix
 
     # Obtenga el pipeline de la pregunta 3.
     pipeline = pregunta_03()
